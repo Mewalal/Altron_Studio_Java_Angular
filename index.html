@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ALTRON STUDIO - Premium Actress Casting, Modeling, Fashion Photography & Cinematic Reels in Navi Mumbai. Where Talent Meets Opportunity."
+    />
+    <meta
+      name="keywords"
+      content="actress casting, modeling portfolio, fashion photography, dance reels, cinematic reels, Navi Mumbai studio, Instagram shoots, brand promotions"
+    />
+    <meta name="author" content="ALTRON STUDIO" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="ALTRON STUDIO - Where Talent Meets Opportunity"
+    />
+    <meta
+      property="og:description"
+      content="Premium Actress Casting, Modeling & Fashion Photography Studio in Navi Mumbai"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200"
+    />
+
+    <title>
+      ALTRON STUDIO | Premium Casting & Fashion Photography | Navi Mumbai
+    </title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&family=Montserrat:wght@300;400;500;600;700;800&family=Cinzel:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loading-logo">ALTRON</div>
+      <div class="loading-bar"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">ALTRON</a>
+
+        <!-- Desktop Nav -->
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#reels" class="nav-link">Reels</a>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <!-- Hamburger Button -->
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Open Menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+      <div class="mobile-nav-close" id="mobileNavClose" aria-label="Close Menu">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="mobile-nav-links">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#reels" class="mobile-link">Reels</a>
+        <a href="#portfolio" class="mobile-link">Portfolio</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#testimonials" class="mobile-link">Reviews</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source
+          src="https://cdn.coverr.co/videos/coverr-model-walking-on-runway-6295/1080p.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title" data-aos="fade-up">ALTRON STUDIO</h1>
+        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+          Where Talent Meets Opportunity
+        </p>
+        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+          <a href="#portfolio" class="btn-gold">Explore Portfolio</a>
+          <a href="#contact" class="btn-outline">Book a Shoot</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reels Showcase -->
+    <section id="reels">
+      <h2 class="section-title" data-aos="fade-up">Cinematic Reels</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Story-Driven Visuals
+      </p>
+
+      <div class="reels-container">
+        <div class="reel-card" data-aos="fade-up" data-aos-delay="100">
+          <video class="reel-thumbnail" autoplay muted loop playsinline>
+            <source src="assets/videos/Luxury_Wedding.mp4" type="video/mp4" />
+          </video>
+          <div class="reel-play-btn"><i class="fas fa-play"></i></div>
+          <div class="reel-info">
+            <h4>Contemporary Dance Reel</h4>
+            <p>Artistic Movement • 4K Cinematic</p>
+          </div>
+        </div>
+        <div class="reel-card" data-aos="fade-up" data-aos-delay="200">
+          <video class="reel-thumbnail" autoplay muted loop playsinline>
+            <source src="assets/videos/Wed_Zone_India.mp4" type="video/mp4" />
+          </video>
+          <div class="reel-play-btn"><i class="fas fa-play"></i></div>
+          <div class="reel-info">
+            <h4>Fashion Campaign Reel</h4>
+            <p>Editorial Luxury • Premium Edit</p>
+          </div>
+        </div>
+        <div class="reel-card" data-aos="fade-up" data-aos-delay="300">
+          <video class="reel-thumbnail" autoplay muted loop playsinline>
+            <source src="assets/videos/Skillinabox.mp4" type="video/mp4" />
+          </video>
+          <div class="reel-play-btn"><i class="fas fa-play"></i></div>
+          <div class="reel-info">
+            <h4>Actress Showreel</h4>
+            <p>Dramatic Scenes • Cinematic Grade</p>
+          </div>
+        </div>
+        <div class="reel-card" data-aos="fade-up" data-aos-delay="400">
+          <video class="reel-thumbnail" autoplay muted loop playsinline>
+            <source
+              src="assets/videos/Nishant_Photography.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="reel-play-btn"><i class="fas fa-play"></i></div>
+          <div class="reel-info">
+            <h4>Brand Collaboration</h4>
+            <p>Commercial Excellence • 4K Quality</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="background: var(--dark-gray)">
+      <h2 class="section-title" data-aos="fade-up">Portfolio</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Our Finest Work
+      </p>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+          <img
+            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800"
+            alt="Fashion Model Portfolio"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>High Fashion Editorial</h3>
+            <p>Vogue-Inspired Shoot</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+          <img
+            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800"
+            alt="Actress Portfolio"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>Actress Portfolio</h3>
+            <p>Cinematic Headshots</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+          <img
+            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800"
+            alt="Fashion Photography"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>Street Style Fashion</h3>
+            <p>Urban Editorial</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+          <img
+            src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800"
+            alt="Dance Reel"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>Contemporary Dance</h3>
+            <p>Cinematic Choreography</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+          <img
+            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800"
+            alt="Brand Campaign"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>Luxury Brand Campaign</h3>
+            <p>Commercial Fashion</p>
+          </div>
+        </div>
+        <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
+          <img
+            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800"
+            alt="Creative Portrait"
+            loading="lazy"
+          />
+          <div class="portfolio-overlay">
+            <h3>Creative Portraits</h3>
+            <p>Conceptual Photography</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="background: var(--dark-gray)">
+      <h2 class="section-title" data-aos="fade-up">About ALTRON</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Crafting Visual Excellence
+      </p>
+
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <img
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+            alt="Fashion Photography Studio"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <h3>Premium Creative Studio in Navi Mumbai</h3>
+          <p>
+            ALTRON STUDIO is Navi Mumbai's premier creative production house,
+            specializing in actress casting, high-fashion modeling, and
+            cinematic content creation. We transform aspiring talent into
+            industry-ready professionals through our signature blend of artistic
+            vision and commercial expertise.
+          </p>
+          <p>
+            Our state-of-the-art facility and award-winning creative team have
+            launched countless successful careers in modeling, acting, and
+            digital content creation. From portfolio shoots to dance reels,
+            fashion campaigns to brand collaborations — we craft visuals that
+            captivate and convert.
+          </p>
+          <p>
+            Whether you're a fresh face stepping into the spotlight or an
+            established creator seeking premium content, ALTRON delivers
+            unmatched quality that stands out in today's competitive digital
+            landscape.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+              <span class="stat-number counter" data-target="500">0</span>
+              <div class="stat-label">Talents Launched</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+              <span class="stat-number counter" data-target="1000">0</span>
+              <div class="stat-label">Reels Created</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+              <span class="stat-number counter" data-target="50">0</span>
+              <div class="stat-label">Brand Collabs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Premium Creative Solutions
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-video"></i></div>
+          <h3>Actress Casting</h3>
+          <p>
+            Professional casting services connecting talented actresses with
+            film, web series, and commercial opportunities. Complete portfolio
+            development and industry guidance.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Modeling Portfolio</h3>
+          <p>
+            High-fashion modeling portfolios that get you noticed by top
+            agencies. Editorial, commercial, and runway preparation with
+            professional styling and direction.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><i class="fas fa-music"></i></div>
+          <h3>Dance Reels</h3>
+          <p>
+            Cinematic dance reels with professional choreography, dynamic camera
+            work, and premium editing. Perfect for auditions and social media
+            growth.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-camera"></i></div>
+          <h3>Fashion Photography</h3>
+          <p>
+            Editorial and commercial fashion photography that tells your story.
+            Luxury aesthetics, creative concepts, and Instagram-worthy visuals.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-film"></i></div>
+          <h3>Cinematic Reel Editing</h3>
+          <p>
+            Premium video editing with color grading, motion graphics, and sound
+            design. Transform raw footage into scroll-stopping content.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Brand Promotions</h3>
+          <p>
+            Strategic brand collaborations and influencer campaigns. Content
+            creation that drives engagement and builds your personal brand.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Instagram Growth Shoots</h3>
+          <p>
+            Curated content packages designed to boost your Instagram presence.
+            Trending formats, viral aesthetics, and consistent branding.
+          </p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon"><i class="fas fa-palette"></i></div>
+          <h3>Creative Direction</h3>
+          <p>
+            End-to-end creative direction for your visual identity. Concept
+            development, styling, and execution that aligns with your goals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" style="background: var(--dark-gray)">
+      <h2 class="section-title" data-aos="fade-up">Why Choose ALTRON</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Excellence in Every Frame
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon"><i class="fas fa-gem"></i></div>
+          <h4>Premium Visual Quality</h4>
+          <p>
+            4K cinematic production with professional-grade equipment and
+            post-production expertise that rivals international standards.
+          </p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+          <h4>Creative Direction</h4>
+          <p>
+            Award-winning creative team with expertise in conceptualizing unique
+            visual narratives tailored to your brand.
+          </p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon"><i class="fab fa-instagram"></i></div>
+          <h4>Instagram Aesthetic</h4>
+          <p>
+            Trend-aware content creation designed for maximum engagement and
+            viral potential on social platforms.
+          </p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon"><i class="fas fa-star"></i></div>
+          <h4>Professional Shoots</h4>
+          <p>
+            State-of-the-art studio with professional lighting, styling, and
+            hair/makeup teams for flawless results.
+          </p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon"><i class="fas fa-magic"></i></div>
+          <h4>Modern Editing</h4>
+          <p>
+            Advanced color grading, VFX, and motion graphics that transform good
+            footage into exceptional content.
+          </p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+          <h4>Freshers Welcome</h4>
+          <p>
+            Dedicated programs for newcomers with guidance, training, and
+            portfolio building to launch your career.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <h2 class="section-title" data-aos="fade-up">Client Testimonials</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Success Stories
+      </p>
+
+      <div class="testimonials-container">
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-quote-right quote-icon"></i>
+          <p class="testimonial-text">
+            "ALTRON transformed my Instagram game completely! Their creative
+            vision and premium quality helped me land my first brand deal within
+            a month. The team understands aesthetics like no one else in
+            Mumbai."
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://randomuser.me/api/portraits/women/32.jpg"
+              alt="Priya Sharma"
+              class="author-image"
+              loading="lazy"
+            />
+            <div class="author-info">
+              <h5>Priya Sharma</h5>
+              <p>Fashion Influencer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-quote-right quote-icon"></i>
+          <p class="testimonial-text">
+            "As a fresher, I was nervous about my first portfolio shoot. The
+            ALTRON team made me feel like a star! Their direction, styling, and
+            final output exceeded all expectations. Highly recommend for new
+            talents."
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt="Ananya Desai"
+              class="author-image"
+              loading="lazy"
+            />
+            <div class="author-info">
+              <h5>Ananya Desai</h5>
+              <p>Aspiring Model</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-quote-right quote-icon"></i>
+          <p class="testimonial-text">
+            "The cinematic quality of my actress showreel from ALTRON got me
+            selected for 3 web series auditions! Their attention to detail and
+            professional approach is unmatched. Worth every penny."
+          </p>
+          <div class="testimonial-author">
+            <img
+              src="https://randomuser.me/api/portraits/women/68.jpg"
+              alt="Kavya Menon"
+              class="author-image"
+              loading="lazy"
+            />
+            <div class="author-info">
+              <h5>Kavya Menon</h5>
+              <p>Television Actress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" style="background: var(--dark-gray)">
+      <h2 class="section-title" data-aos="fade-up">
+        Frequently Asked Questions
+      </h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Get Your Answers
+      </p>
+
+      <div class="faq-container">
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="faq-question">
+            <h4>Do you work with freshers and beginners?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Absolutely! We specialize in launching fresh talent. Our team
+              provides complete guidance on posing, expressions, and
+              presentation. We've successfully launched hundreds of new models,
+              actresses, and content creators.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="faq-question">
+            <h4>What's included in a portfolio shoot package?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Our portfolio packages include professional photography, styling
+              consultation, hair and makeup, multiple outfit changes, premium
+              editing, and high-resolution final images. We also provide
+              guidance on selecting the best shots for different purposes.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="faq-question">
+            <h4>How long does it take to receive final edited content?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Standard turnaround is 7-10 business days for photography and
+              10-15 days for video reels with editing. Express delivery options
+              are available for urgent requirements at additional cost.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="faq-question">
+            <h4>
+              Do you provide casting opportunities and industry connections?
+            </h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Yes! We have partnerships with casting agencies, production
+              houses, and brand managers. Talented individuals from our studio
+              are regularly referred for auditions and collaboration
+              opportunities.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="faq-question">
+            <h4>What is your pricing structure?</h4>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Pricing varies based on service type, shoot duration, and
+              deliverables. We offer customized packages to fit different
+              budgets. Contact us for a detailed quote tailored to your specific
+              requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <div class="cta-banner" data-aos="zoom-in">
+      <h2>Ready to Launch Your Career?</h2>
+      <p>
+        Join hundreds of successful talents who started their journey with
+        ALTRON STUDIO
+      </p>
+      <a href="#contact" class="btn-outline">Book Your Shoot Today</a>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title" data-aos="fade-up">Get in Touch</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Start Your Journey
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's Create Magic Together</h3>
+          <p>
+            Whether you're looking to build your modeling portfolio, create
+            viral dance reels, or launch your acting career — ALTRON STUDIO is
+            your creative partner. Book a consultation and let's discuss how we
+            can bring your vision to life.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h5>Location</h5>
+                <p>Navi Mumbai, Maharashtra, India</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h5>Phone</h5>
+                <p>+91 000000000</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h5>Email</h5>
+                <p>hello@altronstudio.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <h5>Instagram</h5>
+                <p>@altron_studio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="age">Age *</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="1"
+                max="100"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="city">City *</label>
+              <input type="text" id="city" name="city" required />
+            </div>
+            <div class="form-group">
+              <label for="instagram">Instagram ID *</label>
+              <input
+                type="text"
+                id="instagram"
+                name="instagram"
+                placeholder="@yourusername"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="interest">Service Interest *</label>
+              <select id="interest" name="interest" required>
+                <option value="">Select a service</option>
+                <option value="actress-casting">Actress Casting</option>
+                <option value="modeling">Modeling Portfolio</option>
+                <option value="dance-reels">Dance Reels</option>
+                <option value="fashion-photography">Fashion Photography</option>
+                <option value="cinematic-reels">Cinematic Reel Editing</option>
+                <option value="brand-promotions">Brand Promotions</option>
+                <option value="instagram-growth">
+                  Instagram Growth Shoots
+                </option>
+                <option value="creative-direction">Creative Direction</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-gold" style="width: 100%">
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>ALTRON STUDIO</h3>
+          <p>
+            Navi Mumbai's premier creative production house for modeling,
+            acting, and cinematic content creation. Where talent meets
+            opportunity and dreams become reality.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/altron_studio"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#reels">Reels</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Actress Casting</a></li>
+            <li><a href="#services">Modeling Portfolio</a></li>
+            <li><a href="#services">Dance Reels</a></li>
+            <li><a href="#services">Fashion Photography</a></li>
+            <li><a href="#services">Brand Promotions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 ALTRON STUDIO. All Rights Reserved. Designed with
+          <i class="fas fa-heart" style="color: var(--gold)"></i> in Navi Mumbai
+        </p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/919876543210?text=Hi%20ALTRON%20STUDIO!%20I'm%20interested%20in%20booking%20a%20shoot."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      // =====================
+      // AOS Init
+      // =====================
+      AOS.init({ duration: 1000, once: true, offset: 80 });
+
+      // =====================
+      // Loading Screen
+      // =====================
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("loadingScreen").classList.add("hidden");
+        }, 1000);
+      });
+
+      // =====================
+      // Navbar Scroll Effect
+      // =====================
+      const navbar = document.getElementById("navbar");
+      window.addEventListener(
+        "scroll",
+        () => {
+          navbar.classList.toggle("scrolled", window.scrollY > 50);
+        },
+        { passive: true },
+      );
+
+      // =====================
+      // Mobile Menu
+      // =====================
+      const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+      const mobileNav = document.getElementById("mobileNav");
+      const mobileNavClose = document.getElementById("mobileNavClose");
+      const mobileNavOverlay = document.getElementById("mobileNavOverlay");
+
+      function openMobileNav() {
+        mobileNav.classList.add("active");
+        mobileNavOverlay.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeMobileNav() {
+        mobileNav.classList.remove("active");
+        mobileNavOverlay.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      mobileMenuBtn.addEventListener("click", openMobileNav);
+      mobileNavClose.addEventListener("click", closeMobileNav);
+      mobileNavOverlay.addEventListener("click", closeMobileNav);
+
+      // Close on mobile link click
+      document.querySelectorAll(".mobile-link").forEach((link) => {
+        link.addEventListener("click", closeMobileNav);
+      });
+
+      // =====================
+      // Animated Counter
+      // =====================
+      const counters = document.querySelectorAll(".counter");
+      const speed = 200;
+
+      const animateCounter = (counter) => {
+        const target = +counter.getAttribute("data-target");
+        const increment = target / speed;
+        const updateCount = () => {
+          const count = +counter.innerText;
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 10);
+          } else {
+            counter.innerText = target + "+";
+          }
+        };
+        updateCount();
+      };
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateCounter(entry.target);
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.5 },
+      );
+
+      counters.forEach((counter) => observer.observe(counter));
+
+      // =====================
+      // FAQ Accordion
+      // =====================
+      const faqItems = document.querySelectorAll(".faq-item");
+      faqItems.forEach((item) => {
+        item.querySelector(".faq-question").addEventListener("click", () => {
+          const isActive = item.classList.contains("active");
+          faqItems.forEach((faq) => faq.classList.remove("active"));
+          if (!isActive) item.classList.add("active");
+        });
+      });
+
+      // =====================
+      // Smooth Scroll
+      // =====================
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            const offset = 70;
+            const top =
+              target.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top, behavior: "smooth" });
+          }
+        });
+      });
+
+      // =====================
+      // EmailJS
+      // =====================
+      emailjs.init("5e2vzSiSddXQcEgIR");
+
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          emailjs
+            .sendForm("service_altron", "template_studio", this)
+            .then(() => {
+              alert("Thank you! Your inquiry has been sent successfully. 🔥");
+              this.reset();
+            })
+            .catch((error) => {
+              alert("Something went wrong: " + JSON.stringify(error));
+            });
+        });
+    </script>
+  </body>
+</html>
